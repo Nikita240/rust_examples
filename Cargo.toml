@@ -10,13 +10,14 @@ repository = "https://github.tmc-stargate.com/arene-driving/thirteenth-floor-rus
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dev-dependencies]
-backtrace = { version = "0.3" }                                     # backtrace
-env_logger = { version = "0.10.0" }                                 # all
-color-eyre = "0.6"                                                  # eyre
-log = { version = "0.4.19" }                                        # miette, eyre
-miette = { version = "5.10.0", features = ["backtrace", "fancy"] }  # miette
-nalgebra = { version = "0.32.2" }                                   # isometry
-thiserror = { version = "1.0.40" }                                  # miette, eyre
+backtrace = { version = "0.3" }                                    # backtrace
+env_logger = { version = "0.10.0" }                                # all
+color-eyre = "0.6"                                                 # eyre
+log = { version = "0.4.19" }                                       # miette, eyre
+miette = { version = "5.10.0", features = ["backtrace", "fancy"] } # miette
+nalgebra = { version = "0.32.2" }                                  # isometry
+thiserror = { version = "1.0.40" }                                 # miette, eyre
+rand = "0.8.5"
 
 # yaml-include = { version = "0.7.0" }
 
